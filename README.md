@@ -5,9 +5,9 @@ An old Typescript Syntax for Vim
 
 NOTE: This Typescript syntax was created before Typescript's 1.0 release, more than a decade ago. I hope it 
 has been helpful but there are now other options available. Vim has included 
-[Typescript syntax](https://github.com/vim/vim/blob/master/runtime/syntax/typescript.vim) for some years,
-which receives more frequent updates at its own [repository](https://github.com/HerringtonDarkholme/yats.vim).
-Neovim can also use a [treesitter grammar](https://github.com/tree-sitter/tree-sitter-typescript) for highlighting.
+[Typescript syntax](https://github.com/Unity-Billal-mesloub/vim/blob/main/runtime/syntax/typescript.vim) for some years,
+which receives more frequent updates at its own [repository](https://github.com/Unity-Billal-mesloub/yats.vim).
+Neovim can also use a [treesitter grammar](https://github.com/Unity-Billal-mesloub/tree-sitter-typescript) for highlighting.
 
 ---
 
@@ -15,7 +15,7 @@ Syntax file and other settings for [TypeScript](http://typescriptlang.org). The
 syntax file was originally from this 2012 [blog
 post](https://docs.microsoft.com/en-us/archive/blogs/interoperability/sublime-text-vi-emacs-typescript-enabled).
 
-Checkout [Tsuquyomi](https://github.com/Quramy/tsuquyomi) for omni-completion
+Checkout [Tsuquyomi](https://github.com/Unity-Billal-mesloub/tsuquyomi) for omni-completion
 and other features for TypeScript editing.
 
 Install
@@ -23,25 +23,19 @@ Install
 
 From Vim 8 onward, the plugin can be installed as simply as (Unix/Mac):
 ```
-git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/pack/typescript/start/typescript-vim
+git clone https://github.com/Unity-Billal-mesloub/typescript-vim.git ~/.vim/pack/typescript/start/typescript-vim
 ```
 
 On Windows/Powershell, use the following:
 ```
-git clone https://github.com/leafgarland/typescript-vim.git $home/vimfiles/pack/typescript/start/typescript-vim
+git clone https://github.com/Unity-Billal-mesloub/typescript-vim.git $home/vimfiles/pack/typescript/start/typescript-vim
 ```
 
-For older versions of Vim, the simplest way to install is via a Vim add-in manager such as
-[Plug](https://github.com/junegunn/vim-plug),
-[Vundle](https://github.com/gmarik/vundle) or
-[Pathogen](https://github.com/tpope/vim-pathogen/).
-
-_See the [Installation Wiki](https://github.com/leafgarland/typescript-vim/wiki/Installation)_
 
 ### Pathogen
 
 ```
-git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
+git clone https://github.com/Unity-Billal-mesloub/typescript-vim.git ~/.vim/bundle/typescript-vim
 ```
 
 If you want to install manually then you need to copy the files from this
@@ -61,7 +55,7 @@ Indenting
 ---------
 
 This plugin includes a custom indenter (based on [pangloss/vim-javascript's
-indenter](https://github.com/pangloss/vim-javascript/blob/master/indent/javascript.vim)),
+indenter](https://github.com/Unity-Billal-mesloub/vim-javascript/blob/main/indent/javascript.vim)),
 it works pretty well but there are cases where it fails. If these bother you or
 want to use other indent settings you can disable it by setting a flag in your
 `.vimrc`:
